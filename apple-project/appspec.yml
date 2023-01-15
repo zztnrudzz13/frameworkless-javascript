@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /home/ubuntu/deploy
     overwrite: yes
-permission:
+permissions:
   - object: /home/ubuntu/deploy
     owner: root
     group: root
