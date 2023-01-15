@@ -8,7 +8,7 @@ function Shop($container) {
   this.render = () => {
     this.$container.innerHTML = `
       <main class="postPage">
-        샵 페이지에요.
+        샵 페이지가 맞을까요?
       </main>
     `;
   };
