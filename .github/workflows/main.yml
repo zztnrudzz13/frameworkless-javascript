@@ -32,4 +32,4 @@ jobs:
           --application-name apple-codedeploy
           --deployment-config-name CodeDeployDefault.AllAtOnce
           --deployment-group-name apple-codedeploy-group
-          --s3-location bucket=myapplebucket,bundleType=zip
+          --s3-location bucket=myapplebucket,key=apple-build.zip,bundleType=zip
