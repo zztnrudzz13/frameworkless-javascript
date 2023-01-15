@@ -11,7 +11,7 @@ function Main($container) {
   this.render = () => {
     this.$container.innerHTML = `
       <main class="mainPage">
-        메인 페이지에요.
+        메인 페이지입니다.
       </main>
     `;
   };
