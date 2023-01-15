@@ -8,7 +8,7 @@ function Post($container) {
   this.render = () => {
     this.$container.innerHTML = `
       <main class="postPage">
-        포스트 페이지에요.
+        포스트 페이지가 맞습니다.
       </main>
     `;
   };
