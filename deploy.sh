@@ -3,9 +3,7 @@ REPOSITORY=/home/ubuntu/deploy
 
 cd $REPOSITORY
 
-rimraf dist
-
-npm run build
+sudo npm run build
 
 sudo npm install
 
