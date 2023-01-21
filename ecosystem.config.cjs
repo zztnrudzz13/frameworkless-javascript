@@ -2,8 +2,9 @@ module.exports = {
   apps: [
     {
       name: 'main',
-      script: 'main.js',
+      script: './main.js',
       watch: true,
+      exec_mode: 'cluster',
     },
   ],
 };
