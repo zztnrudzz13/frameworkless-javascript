@@ -8,7 +8,7 @@ permissions:
   - object: /home/ubuntu/deploy
     owner: root
     group: root
-    mode: 755
+    mode: 777
 hooks:
   AfterInstall:
     - location: deploy.sh
