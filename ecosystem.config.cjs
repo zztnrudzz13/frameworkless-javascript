@@ -1,8 +1,8 @@
 module.exports = {
   apps: [
     {
-      name: 'main',
-      script: './main.js',
+      name: 'index',
+      script: './index.html',
       watch: true,
       exec_mode: 'cluster',
     },
