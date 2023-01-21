@@ -12,7 +12,10 @@ import Store from '../pages/store';
 import TV from '../pages/tv';
 import Watch from '../pages/watch';
 
-export const BASE_URL = 'http://127.0.0.1:5173';
+// export const BASE_URL = 'http://127.0.0.1:5173';
+export const BASE_URL =
+  'http://ec2-13-125-110-58.ap-northeast-2.compute.amazonaws.com';
+
 // /^\/ipad\/[\w]+$/
 
 export const routes = [
