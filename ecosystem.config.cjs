@@ -5,9 +5,5 @@ module.exports = {
       script: 'main.js',
       watch: true,
     },
-    {
-      script: './service-worker/',
-      watch: ['./service-worker'],
-    },
   ],
 };
