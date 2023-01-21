@@ -5,6 +5,8 @@ cd $REPOSITORY
 
 git pull
 
+rimraf dist
+
 npm run build
 
 sudo npm install
