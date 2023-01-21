@@ -1,6 +1,18 @@
 import { routes } from './constants/routeInfo';
 import NotFound from './pages/notfound';
 
+/*
+ * ✅ location: Window.location is read-only property that returns a Location object
+ * about the current location of the document
+ * ✅ History.replaceState(stateObj, unused, url?): modifies the current history entry, replacing
+ * it with the state object and URL passed in the method parameters.
+ * ✅ History.pushState(state, unused, url?): adds an entry to the browser's session history stack
+ */
+
+/**
+ *
+ * @param {HTMLElement || null} $container
+ */
 function Router($container) {
   this.$container = $container;
   let currentPage = undefined;

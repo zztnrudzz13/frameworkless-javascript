@@ -1,4 +1,4 @@
-function Shop($container) {
+function Mac($container) {
   this.$container = $container;
 
   this.setState = () => {
@@ -7,8 +7,8 @@ function Shop($container) {
 
   this.render = () => {
     this.$container.innerHTML = `
-      <main class="postPage">
-        샵 페이지가 맞을까요?
+      <main class="macPage">
+        맥을 살 수 있습니다.
       </main>
     `;
   };
@@ -16,4 +16,4 @@ function Shop($container) {
   this.render();
 }
 
-export default Shop;
+export default Mac;

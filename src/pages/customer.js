@@ -1,4 +1,4 @@
-function Post($container) {
+function Customer($container) {
   this.$container = $container;
 
   this.setState = () => {
@@ -7,8 +7,8 @@ function Post($container) {
 
   this.render = () => {
     this.$container.innerHTML = `
-      <main class="postPage">
-        포스트 페이지 열려라 얍
+      <main class="customerPage">
+        고객을 지원해주는 페이지입니다.
       </main>
     `;
   };
@@ -16,4 +16,4 @@ function Post($container) {
   this.render();
 }
 
-export default Post;
+export default Customer;

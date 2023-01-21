@@ -1,3 +1,9 @@
+/*
+ * CustomEvent: represents events initialized by an application for any purpose,
+ * this interface inherits properties from its parent, Event.
+ * CustomEvent.detail: returns any data passed when initializing the event
+ */
+
 /**
  *
  * @param { string } to
